@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+img{
+    width:80px;
+    height: 80px;
+    border-radius:40px;
+    box-shadow: 2px 2px 10px #1d0e38;
+    display: inline;
+}
+
+body{
+    background-image:linear-gradient(to right,#552EA5,#4C286A,#4B2C70);
+}
+header{
+    text-align: center;
+    background-color:#9d80ba85;
+    height:80px;
+
+}
+
+main{
+    overflow:hidden;
+}
+.container{
+    padding:20px 0;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.034);
+    margin:30px auto;
+    width:70%;
+    box-shadow:3px 2px 10px rgba(0, 0, 0, 0.301);
+    
+}
+
+.informacoes{
+    margin: auto;
+    background-color: #b7a2c9;
+    width:60%;
+    padding:5px 30px;
+    text-align: justify;
+    border-radius:10px;
+    overflow:auto;
+      
+}
+.hide{
+    
+    transition:1s;
+    height: 0;
+}
+.showw{
+    transition: 1s;
+    height:auto;
+}
+.show{
+    transition: 1s;
+    height:200px;
+    
+    
+}
+.informacoes p{
+    text-align: center;
+    padding-bottom:15px;
+    color:black;
+    font-size:1em;
+   
+}
+h1{
+    color: white;
+    font-size:3em;
+    font-family: 'Lobster Two', cursive, sans-serif;
+    padding:5px;
+}
+p{
+    padding:10PX 0;
+    color: white;
+    font-size:2em;
+   
+}
+button{
+    margin: 15px auto;
+    background-color: #b7a2c9;
+    border-radius:5px;
+    font-size:0.2;
+    border-color: #b7a2c9;
+    display:block;
+    
+    
+}
